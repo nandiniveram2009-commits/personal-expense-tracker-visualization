@@ -41,17 +41,18 @@ This project demonstrates practical skills applicable to **Python Developer, Dat
 ## 📂 Folder Structure
 ```text
 Personal-Expense-Tracker-Visualization/
-├── data/               # Raw/synthetic CSVs and SQLite database (expenses.db)
-├── notebooks/          # Exploratory Jupyter notebooks
 ├── src/                # Modular Python pipeline (generator, categorizer, db, analyzer, visualizer, reporter)
-├── outputs/            # Cleaned CSVs and category summaries
-├── images/             # Generated PNG charts & dashboard screenshots
-├── reports/            # Monthly CSV and TXT executive reports
-├── docs/               # Architecture & documentation notes
 ├── app.py              # Streamlit interactive dashboard
 ├── main.py             # Master CLI pipeline runner
 ├── requirements.txt    # Dependencies
 └── README.md           # Project documentation
+
+##Learning Outcomes
+
+Designing modular Python packages (src/) instead of monolithic scripts.
+Writing idempotent SQLite ingestion pipelines using UNIQUE constraints and INSERT OR IGNORE.
+Handling messy date/numeric data cleanly with Pandas.
+Building executive-ready financial visualizations and interactive Streamlit UIs.
 
 
 ## Authors
